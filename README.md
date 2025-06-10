@@ -2,9 +2,7 @@
 
 Why should you use this programming language? You shouldn't
 
-![image](https://github.com/user-attachments/assets/54d1077b-b724-4bb7-bda1-0e14bbdd63e7)
-
-
+![image](https://github.com/user-attachments/assets/93ff3c58-f16d-4b61-8235-4e0d658c552b)
 
 ## Syntax and stuff
 
@@ -12,6 +10,7 @@ It's not fully finished but yeah, very simple
 ```
 var x str = Hello
 var y str = World
+var z num = 999
 
 print(x + y)
 ```
@@ -19,6 +18,7 @@ Javascript output:
 ```
 var x = "Hello";
 var y = "World";
+var z = 999;
 console.log(x + y);
 ```
 

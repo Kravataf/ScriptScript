@@ -4,6 +4,9 @@ Why should you use this programming language? You shouldn't
 
 ~compiler.js => transpiler, since it's source-to-source~
 
+![image](https://github.com/user-attachments/assets/709dd2e7-ca3e-4d6d-811c-9a6de4f2e51e)
+
+
 ## Syntax and stuff
 
 It's not fully finished but yeah, very simple

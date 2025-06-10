@@ -22,7 +22,7 @@ var z = 999;
 console.log(x + y);
 ```
 
-File format is .ss (it's literally .txt just renamed)
+File format is .◕‿◕ (it's literally .txt just renamed)
 
 ## Contributing / setup
 1. Get Visual Studio Code

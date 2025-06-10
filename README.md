@@ -21,6 +21,7 @@ var y = "World";
 var z = 999;
 console.log(x + y);
 ```
+Output => `HelloWorld`
 
 File format is .◕‿◕ (it's literally .txt just renamed)
 

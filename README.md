@@ -1,12 +1,12 @@
-# ScriptScript (◕‿◕)
+# <p align="center" dir="auto">ScriptScript</p>
 
 Why should you use this programming language? You shouldn't
 
 ![image](https://github.com/user-attachments/assets/93ff3c58-f16d-4b61-8235-4e0d658c552b)
 
-## Syntax and stuff
+## The syntax
 
-It's not fully finished but yeah, very simple
+ScriptScript:
 ```
 var x str = Hello
 var y str = World
@@ -14,7 +14,7 @@ var z num = 999
 
 print(x + y)
 ```
-Javascript output:
+After compilation into JavaScript:
 ```
 var x = "Hello";
 var y = "World";

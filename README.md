@@ -1,8 +1,6 @@
-# ScriptScript
+# ScriptScript (◕‿◕)
 
 Why should you use this programming language? You shouldn't
-
-~compiler.js => transpiler, since it's source-to-source~
 
 ![image](https://github.com/user-attachments/assets/54d1077b-b724-4bb7-bda1-0e14bbdd63e7)
 

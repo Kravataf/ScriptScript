@@ -9,8 +9,17 @@ async function readFile(address) {
     for (let line of lines) {
       const tokens = line.trim().split(/\s+/);
 
-      if (tokens[0] === 'var' && tokens[2] === 'str' && tokens[3] === '=' && tokens.length >= 5) {
-        compiledSrc += `var ${tokens[1]} = "${tokens.slice(4).join(' ')}"; `;
+      if (
+        tokens[0] === 'var' &&
+        (tokens[2] === 'str' || tokens[2] === 'num') &&
+        tokens[3] === '=' &&
+        tokens.length >= 5
+      ) {
+        if (tokens[2] === 'str') {
+          compiledSrc += `var ${tokens[1]} = "${tokens.slice(4).join(' ')}"; `;
+        } else if (tokens[2] === 'num') {
+          compiledSrc += `var ${tokens[1]} = ${tokens.slice(4).join(' ')}; `;
+        }
       }
       else if (line.trim().startsWith('print(') && line.trim().endsWith(')')) {
         const inside = line.trim().slice(6, -1);

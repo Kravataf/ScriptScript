@@ -3,6 +3,11 @@ let compiledSrc = "";
 
 async function readFile(address) {
   try {
+    if (!address.endsWith('.◕‿◕')) {
+      console.error('Error: Only .◕‿◕ files are supported.');
+      return;
+    }
+
     const data = await fs.readFile(address, 'utf8');
     const lines = data.split(/\r?\n/);
 
@@ -39,4 +44,4 @@ async function readFile(address) {
   }
 }
 
-readFile('C:/Users/creat/Downloads/example.ss');
+readFile('C:/Users/creat/Downloads/example.◕‿◕');

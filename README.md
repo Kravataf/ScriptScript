@@ -4,7 +4,8 @@ Why should you use this programming language? You shouldn't
 
 ~compiler.js => transpiler, since it's source-to-source~
 
-![image](https://github.com/user-attachments/assets/709dd2e7-ca3e-4d6d-811c-9a6de4f2e51e)
+![image](https://github.com/user-attachments/assets/54d1077b-b724-4bb7-bda1-0e14bbdd63e7)
+
 
 
 ## Syntax and stuff
@@ -15,6 +16,12 @@ var x str = Hello
 var y str = World
 
 print(x + y)
+```
+Javascript output:
+```
+var x = "Hello";
+var y = "World";
+console.log(x + y);
 ```
 
 File format is .ss (it's literally a text file just renamed)

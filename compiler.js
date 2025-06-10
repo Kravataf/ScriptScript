@@ -6,7 +6,6 @@ async function readFile(address) {
   try {
     const data = await fs.readFile(address, 'utf8');
     splitData = data.split(/\s+/); // Split by any whitespace (space, tab, newline)
-    console.log(splitData);
 
     for (let i in splitData) {
       switch (splitData[i]) {
@@ -24,17 +23,19 @@ async function readFile(address) {
             break;
       }
       switch (splitData[i]) {
+        // don't print types
         case "str":
             break;
         case "num":
             break;
-        case "print":
-            compiledSrc += "console.log()";
-            break;
         default:
-            compiledSrc += splitData[i] + " ";
+            if (splitData[i].startsWith("print(")) {
+                compiledSrc += "console.log()";
+            } else {
+                compiledSrc += splitData[i] + " ";
+            }
             break;
-        }
+      }
     }
     console.log("Compiled Source: ", compiledSrc);
   } catch (err) {

@@ -38,7 +38,7 @@ async function readFile(address) {
       .filter(s => s.length > 0)
       .join(';\n') + ';';
 
-    console.log("Compiled Source:\n\n" + formattedSrc);
+    console.log('Compiled Source:\n\n' + formattedSrc);
   } catch (err) {
     console.error(err);
   }

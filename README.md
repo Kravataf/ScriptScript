@@ -1,5 +1,9 @@
 # <p align="center" dir="auto">ScriptScript</p>
 
+<div align="center" dir="auto">
+  <img src="https://github.com/user-attachments/assets/c783e9b0-2448-446c-87c4-e659c7caae33"></img>
+</div>
+
 Why should you use this programming language? You shouldn't
 
 ![image](https://github.com/user-attachments/assets/93ff3c58-f16d-4b61-8235-4e0d658c552b)
